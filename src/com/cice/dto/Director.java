@@ -14,7 +14,7 @@ import java.util.Date;
 public class Director extends Gerente {
     
     private Coche coche;
-    final double incentivo=1.15;
+    final double incentivo=1.10;
     final int incrementa=100;
 
     public Director() {

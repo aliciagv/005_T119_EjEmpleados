@@ -17,6 +17,14 @@ public class Director extends Gerente {
     final double incentivo=1.10;
     final int incrementa=100;
 
+    public Coche getCoche() {
+        return coche;
+    }
+
+    public void setCoche(Coche coche) {
+        this.coche = coche;
+    }
+
     public Director() {
     }
 

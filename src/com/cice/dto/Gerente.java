@@ -14,6 +14,14 @@ public class Gerente extends Empleados {
     
     final double incentivo=1.05;
     Departamento d;
+
+    public Departamento getD() {
+        return d;
+    }
+
+    public void setD(Departamento d) {
+        this.d = d;
+    }
     
     public Gerente() {
         //super();
